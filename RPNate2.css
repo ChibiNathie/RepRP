@@ -1,0 +1,108 @@
+﻿.RPNate {
+  width: 550px;
+  margin: auto;
+  box-sizing: border-box;
+  font-size:14px;
+}
+
+
+.RPNI {
+  box-shadow: inset 0 -8px 0 var(--NGrad1);
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.RPNS {
+  height: 5px;
+  margin: 5px 0;
+  background:var(--NGrad1);
+}
+
+
+.RPNI2 {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size:12px;
+}
+
+
+.RPImgN {
+  object-fit: cover;
+  object-position: center;
+  width: 120px;
+  height: 70px;
+  margin: 0 5px;
+  
+}
+
+
+.N1 {
+  border: 3px solid var(--NC1);
+}
+
+
+.N2 {
+  border: 3px solid var(--NC2);
+}
+
+
+.RPNT {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  max-width: 230px;
+  max-height: 70px;
+  text-align: right;
+  border-right: 5px solid var(--NC3);
+  padding-right: 5px;
+}
+
+
+ab {
+  background: var(--NGrad1);
+  padding: 5px 10px;
+  border-radius:5px;
+}
+
+
+.RPNTW {
+  max-width:250px;
+}
+
+
+tw {transition:0.5s;filter:blur(3px);padding:0 2px;}
+tw:hover {transition:0.5s;filter:blur(0);}
+
+
+.RPNRP {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.35;
+  text-align: justify;
+  margin-bottom: 10px;
+} 
+
+
+#SignaNathie{
+  margin: auto;
+  width: 100px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+#SignaNathie a {
+  font-size: 8px;
+  padding: 5px;
+  padding-top: 15px;
+  text-align: center;
+  color: #ddd !important;
+  text-decoration: none !important;
+  margin: auto;
+  width: 100px;
+}
