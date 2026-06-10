@@ -1,0 +1,87 @@
+.RPLil {
+  width: 550px;
+  margin: auto;
+  box-sizing: border-box;
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, var(--LC1), var(--LC2), var(--LC3)) 1;
+  padding:20px;
+  margin-top:60px;
+}
+
+
+.RPLilT {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  position:relative;
+  margin-top:-60px;
+  overflow:hidden;
+  margin-bottom:20px;
+}
+
+
+.RPLilG {
+  object-fit:cover;
+  object-position:center;
+  width:150px;
+  height:80px;
+}
+
+
+.RPLilTi {
+  font-family: "Advent Pro", sans-serif;
+  font-size:20px;
+  width: 300px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-top:10px;
+}
+
+
+.RPLilF {
+  font-size:12px;
+  height:30px;
+  width:250px;
+  text-align:center;
+  overflow:auto;
+}
+
+
+.RPLilI {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+  gap:10px;
+}
+
+
+.RPLilRP {
+  text-align:justify;
+}
+
+
+
+
+
+
+#SignaNathie{
+  margin: auto;
+  width: 100px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+#SignaNathie a {
+  font-size: 8px;
+  padding: 5px;
+  padding-top: 15px;
+  text-align: center;
+  color: #ddd !important;
+  text-decoration: none !important;
+  margin: auto;
+  width: 100px;
+}
