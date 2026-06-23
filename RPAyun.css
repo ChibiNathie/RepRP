@@ -16,7 +16,7 @@
   object-position: center;
   width: 300px;
   height: 150px;
-  border: 5px solid #A29B74;
+  border: 5px solid var(--Gr5);
   margin: 0 5px;
   border-radius: 5px;
 }
@@ -48,9 +48,9 @@
   font-size: 44px;
   margin-top: -40px;
   text-align: center;
-  color: #fff;
+  color: var(--neutral);
   font-family: 'Babylonica';
-  text-shadow: -1px -1px 0 #A29B74, 1px -1px 0 #A29B74, -1px 1px 0 #A29B74, 1px 1px 0 #A29B74;
+  text-shadow: -1px -1px 0 var(--Gr5), 1px -1px 0 var(--Gr5), -1px 1px 0 var(--Gr5), 1px 1px 0 var(--Gr5);
   line-height: 0.8;
   position: relative;
   z-index: 1;
@@ -61,15 +61,15 @@
   margin-top: 15px;
   text-align: justify;
   border-radius: 5px;
-  border-left: 5px solid #A29B74;
-  border-right: 5px solid #A29B74;
+  border-left: 5px solid var(--Gr5);
+  border-right: 5px solid var(--Gr5);
   padding: 5px 15px;
 }
 
 
 .RPAFt {
   margin-top: 30px;
-  background-color: #A29B74;
+  background-color: var(--Gr5);
   border-radius: 5px;
   display: flex;
   align-items: center;
