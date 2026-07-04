@@ -48,7 +48,7 @@ font-family: "Kelly Slab", sans-serif;
 
 .KhemR2 {
   width:600px;
-  margin:10px auto;
+  margin:10px;
   padding:10px;
   background:linear-gradient(to right, var(--Gr4), var(--neutral));
   border-radius:10px;
