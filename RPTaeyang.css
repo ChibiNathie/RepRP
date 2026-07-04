@@ -1,0 +1,94 @@
+﻿.RPTaeyang {
+  width: 650px;
+  margin: auto;
+  box-sizing: border-box;
+      display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+
+.RPImgTae {
+  display:grid;
+      grid-auto-flow: row;
+    gap: 20px;
+}
+
+
+.RPTaeS {
+  position: relative;
+  object-fit: cover;
+  object-position: center;
+  width: 50px;
+  height: 50px;
+  top:-100px;
+  z-index:1;
+  transform:rotate(20deg);
+}
+
+
+.RPTaeGif {
+  object-fit: cover;
+  object-position: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding:5px;
+}
+
+
+.ITae1 {
+  background:linear-gradient(to right, var(--Gr2), var(--neutral));
+}
+
+
+.ITae2 {
+  background:linear-gradient(to left, var(--Gr2), var(--neutral));
+}
+
+
+.RPTeaFt {
+  margin-top:-75px;
+  font-size:10px;
+  background:var(--neutral);
+  position:relative;
+  z-index:1;
+  text-align:center;
+  border-radius:5px;
+  border:1px solid var(--Gr2);
+}
+
+
+.RPTaeTi {
+  font-family: "Satisfy", cursive;
+  font-size:20px;
+  border-bottom:5px solid var(--Gr2);
+  padding-left:20px;
+  line-height:1.2;
+}
+
+
+.RPTaeRP {
+  padding:10px;
+  text-align:justify;
+}
+
+
+.SignaNathie{
+  margin: auto;
+  width: 100px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.SignaNathie a {
+  font-size: 8px;
+  padding: 5px;
+  padding-top: 15px;
+  text-align: center;
+  color: #ddd !important;
+  text-decoration: none !important;
+  margin: auto;
+  width: 100px;
+}
