@@ -1,0 +1,70 @@
+﻿.RPNox {
+  width: 650px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+
+.RPTNox {
+  display:grid;
+      grid-auto-flow: column;
+    align-items: end;
+      justify-content: space-between;
+  gap:20px;
+  background:linear-gradient(to right, var(--Gr3), #000);
+  padding:10px;
+}
+
+
+.RPTiNox {
+  font-family: "Orbitron", sans-serif;
+  color:#fff;
+  
+}
+
+
+.RPNoxCli {
+  animation: clignoter 1s infinite;
+}
+
+
+@keyframes clignoter {
+  0%   { opacity: 1; }
+  50%  { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+.RPGifNox {
+  width:100px;
+  height:100px;
+  object-fit:cover;
+  object-position:center;
+  padding:5px;
+  border:1px solid #fff;
+  margin:0 5px;
+}
+
+
+.RPTeNox {
+  padding:20px 10px;
+  text-align:justify;
+  border-width: 3px;
+  border-style: solid;
+  border-image: linear-gradient(to right, var(--Gr3), #000) 1;
+}
+
+
+.RPFeNox {
+  background:linear-gradient(to right, var(--Gr3, #000);
+  color:#fff;
+  padding:10px;
+  font-size:12px;
+  font-family: "Orbitron", sans-serif;
+  text-align:right;
+}
+
+
+.RPFeNo a {
+  color:#fff;
+}
