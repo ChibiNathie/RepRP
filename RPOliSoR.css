@@ -92,6 +92,7 @@
   text-decoration:none;
 }
 
+oli {font-weight:bold;background:-webkit-linear-gradient(55deg, var(--color1), var(--color2), var(--color3));-webkit-background-clip:text;-webkit-text-fill-color:transparent;border-radius:4px;}
 
 .SignaNathie{
   margin: auto;
