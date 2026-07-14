@@ -43,11 +43,11 @@
 .TitreRPOli {
   position:relative;
   color:#fff;
-  padding:5px 25px;
+  padding:10px 25px;
   text-transform:uppercase;
   background:linear-gradient(45deg, var(--color1), var(--color2), var(--color3));
-  margin:-20px auto 0 auto;
-  width:85%;
+  margin:-20px 20px 0 auto;
+  width:90%;
   text-align:right;
   font-family:var(--font2);
   font-size:24px;
@@ -77,8 +77,8 @@
 
 
 .FtRPOli {
-  margin:30px 50px 0 auto;
-  font-size:12px;
+  margin:50px 50px 0 auto;
+  font-size:10px;
   font-family:var(--font2);
   color:#fff;
   background:linear-gradient(45deg, var(--color1), var(--color2), var(--color3));
