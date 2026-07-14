@@ -1,0 +1,113 @@
+﻿.RPOli {
+  width:650px;
+  margin:auto;
+  box-sizing: border-box;
+  padding-bottom:20px;
+}
+
+
+
+
+.TopRPOli {
+  background-color:var(--bg2);
+  padding:10px;
+  border:1px solid var(--color3);
+}
+
+
+.GifRPOli {
+  text-align:right;
+}
+
+
+.RPGifOli {
+  object-fit:cover;
+  object-position:center;
+  width:100px;
+  height:100px;
+  padding:5px;
+  margin:0 5px;
+}
+
+
+.OliRPG1 {
+  border:1px solid var(--color1);
+}
+
+
+.OliRPG2 {
+  border:1px solid var(--color2);
+}
+
+
+.TitreRPOli {
+  position:relative;
+  color:#fff;
+  padding:5px 25px;
+  text-transform:uppercase;
+  background:linear-gradient(45deg, var(--color1), var(--color2), var(--color3));
+  margin:-20px auto 0 auto;
+  width:85%;
+  text-align:right;
+  font-family:var(--font2);
+  font-size:24px;
+}
+
+
+.TWRPOli {
+  margin-top:10px;
+  font-size:10px;
+  text-align:right;
+  margin-right:25px;
+  font-style:italic;
+}
+
+
+.TWRPOli span {
+  font-weight:600;
+  color:var(--color1);
+}
+
+
+.TexteRPOli {
+  margin-top:20px;
+  padding:0 20px;
+  text-align:justify;
+}
+
+
+.FtRPOli {
+  margin:30px 50px 0 auto;
+  font-size:12px;
+  font-family:var(--font2);
+  color:#fff;
+  background:linear-gradient(45deg, var(--color1), var(--color2), var(--color3));
+  padding:5px 20px;
+  width:fit-content;
+}
+
+
+.FtRPOli a {
+  color:#fff;
+  text-decoration:none;
+}
+
+
+.SignaNathie{
+  margin: auto;
+  width: 100px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.SignaNathie a {
+  font-size: 8px;
+  padding: 5px;
+  padding-top: 15px;
+  text-align: center;
+  color: #ddd !important;
+  text-decoration: none !important;
+  margin: auto;
+  width: 100px;
+}
