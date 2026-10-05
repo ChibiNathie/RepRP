@@ -4,7 +4,7 @@
   box-sizing: border-box;
   border-width: 2px;
   border-style: solid;
-  border-image: linear-gradient(to bottom, var(--MColor), var(--White), var(--SColor)) 1;
+  border-image: linear-gradient(to bottom, var(--MColor), var(--neutral), var(--SColor)) 1;
   padding:20px;
   margin-top:60px;
 }
